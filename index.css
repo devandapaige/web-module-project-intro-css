@@ -1,4 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap");
+/** Chelsea Market - Used on the Main Header(h1) font-family: 'Chelsea Market', cursive;
+Roboto Mono - used as default text for the page. font-family: 'Roboto Mono', monospace; **/
+
+* {
+  font-family: "Roboto Mono", monospace;
+  font-size: ;
+}
+body {
+  margin: 3rem;
+}
+.navButtons {
+  text-align: center;
+}
+.navButtons li {
+  list-style: none;
+  display: inline;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0 2rem 4rem 2rem;
+}
+.navButtons li a {
+  color: white;
+  text-decoration: none;
+}
+.navButtons .plan {
+  background-color: #ff764e;
+  padding: 1.8rem;
+  border-radius: 25%;
+}
+
+.navButtons .learn {
+  background-color: #5ed3eb;
+  border-radius: 25%;
+  padding: 1.8rem;
+}
+.navButtons .involved {
+  background-color: #ffcd69;
+  border-radius: 25%;
+  padding: 1.8rem;
+}
+
+.headerTable {
+    width: 70%%
+    margin: 3rem auto;
+}
+.headerTable .imgContainer {
+    width: 30%;
+}
+.headerTable .headerContainer {
+    width: 70%;
+}
+
 .headerImg {
-    width: 25%;
-    border-radius: 50%;
+  border-radius: 50%;
+  height: 10rem;
+}
+
+header h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 3rem;
+  display: inline;
+  text-align: center;
+}
+
+header h3 {
+  display: inline;
+  text-align: center;
 }
