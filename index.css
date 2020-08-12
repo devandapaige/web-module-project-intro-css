@@ -4,52 +4,69 @@ Roboto Mono - used as default text for the page. font-family: 'Roboto Mono', mon
 
 * {
   font-family: "Roboto Mono", monospace;
-  font-size: 10px;
+  font-size: 62.5%;
 }
-body {
-  margin: 3rem;
-}
+
 .navButtons {
-  margin: 3rem auto;
+  list-style: none;
+  margin: 5rem -2rem 2rem 0;
+  text-align: center;
+  padding: 0;
 }
 .navButtons li {
-  list-style: none;
   display: inline;
-  font-size: 1.2rem;
-  text-align: center;
-  margin: 0 2rem 4rem 2rem;
-}
+  font-size: 1.8rem;
+  margin: 0 2rem;
+  }
 
 .navButtons li a {
     color: white;
     text-decoration: none;
-}
+    }
 .navButtons .plan {
     background-color: #ff764e;
     padding: 1.8rem;
     border-radius: 11px;
-    transform: skewx(-45deg) 0.5s;
+    cursor: pointer;
+    transition: 0.5s;
 }
   .navButtons .plan:hover {
      background-color: white;
      border: #ff764e solid 2px;
      color: #ff764e;
-}
+     padding: 1.6rem;
 
+}
 .navButtons .learn {
   background-color: #5ed3eb;
   border-radius: 11px;
   padding: 1.8rem;
+  cursor: pointer;
+    transition: 0.5s;
+}
+  .navButtons .learn:hover {
+     background-color: white;
+     border: #5ed3eb solid 2px;
+     color: #5ed3eb;
+     padding: 1.6rem;
 }
 .navButtons .involved {
   background-color: #ffcd69;
   border-radius: 11px;
   padding: 1.8rem;
+  transition: 0.5s;
+}
+  .navButtons .involved:hover {
+     background-color: white;
+     border: #ffcd69 solid 2px;
+     color: #ffcd69;
+     padding: 1.6rem;
 }
 
 .headerTable {
     width: 70%%
     margin: 3rem auto;
+    padding: 3rem;
 }
 .headerTable .imgContainer {
     width: 30%;
@@ -104,7 +121,16 @@ font-size: 1.3rem;
 
 .footerImg {
     background-image: url("assets/footer_img.jpg");
-    background-size: contain;
-    background-position: center;
-    height: 18rem;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+    margin: 0 auto;
+}
+.footerNav {
+    background-color: #f9e7dc;
+    height: 12rem;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
 }
