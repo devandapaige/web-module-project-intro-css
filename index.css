@@ -6,76 +6,84 @@ Roboto Mono - used as default text for the page. font-family: 'Roboto Mono', mon
   font-family: "Roboto Mono", monospace;
   font-size: 62.5%;
 }
+html {
+  margin: 4rem 1.5rem;
+}
 
 .navButtons {
-  list-style: none;
-  margin: 5rem -2rem 2rem 0;
-  text-align: center;
-  padding: 0;
-  
+  display: table;
+  text-align: justify;
+  vertical-align: center;
+  width: 100%;
+  padding: ;
 }
-.navButtons li {
-  display: inline;
-  font-size: 1.8rem;
-  margin: 0 2rem;
-  }
-
-.navButtons li a {
-    color: white;
-    text-decoration: none;
-    }
+.navButtons .empty {
+  display: table-cell;
+}
+.navButtons a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  vertical-align: center;
+}
 .navButtons .plan {
-    background-color: #ff764e;
-    padding: 1.8rem;
-    border-radius: 11px;
-    cursor: pointer;
-    transition: 0.5s;
+  display: table-cell;
+  text-align: center;
+  background-color: #ff764e;
+  padding: 0.7rem;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  width: 13%;
 }
-  .navButtons .plan:hover {
-     background-color: white;
-     border: #ff764e solid 2px;
-     color: #ff764e;
-     padding: 1.6rem;
-
+.navButtons .plan:hover {
+  background-color: #996a5f;
+  border: #ff764e solid 2px;
+  color: #ff764e;
 }
 .navButtons .learn {
+  display: table-cell;
+  text-align: center;
   background-color: #5ed3eb;
-  border-radius: 11px;
-  padding: 1.8rem;
+  border-radius: 15px;
+  padding: 0.7rem;
   cursor: pointer;
-    transition: 0.5s;
+  transition: 0.5s;
+  width: 13%;
 }
-  .navButtons .learn:hover {
-     background-color: white;
-     border: #5ed3eb solid 2px;
-     color: #5ed3eb;
-     padding: 1.6rem;
+.navButtons .learn:hover {
+  background-color: #7c92ab;
+  border: #5ed3eb solid 2px;
+  color: #5ed3eb;
 }
 .navButtons .involved {
+  display: table-cell;
+  text-align: center;
   background-color: #ffcd69;
-  border-radius: 11px;
-  padding: 1.8rem;
+  border-radius: 15px;
+  padding: 0.7rem;
   transition: 0.5s;
+  width: 13%;
 }
-  .navButtons .involved:hover {
-     background-color: white;
-     border: #ffcd69 solid 2px;
-     color: #ffcd69;
-     padding: 1.6rem;
+.navButtons .involved:hover {
+  background-color: #e0af97;
+  border: #ffcd69 solid 2px;
+  color: #ffcd69;
 }
 
 .headerTable {
-    width: 70%%
-    margin: 3rem auto;
-    padding: 3rem;
+  width: 90%;
+  margin: 3rem auto;
+  padding: 3rem;
 }
 .headerTable .imgContainer {
-    width: 30%;
-    }
+  width: 30%;
+  vertical-align: center;
+}
 .headerTable .headerContainer {
-    width: 70%;
-    text-align: center;
-        
+  width: 70%;
+  text-align: center;
+  vertical-align: center;
 }
 
 .headerImg {
@@ -88,50 +96,51 @@ header h1 {
   font-family: "Chelsea Market", cursive;
   font-size: 5rem;
   display: inline;
-text-align: center;
+  text-align: center;
 }
 
 header h3 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
   display: inline;
   text-align: center;
-  
 }
 .firstSection {
-    background-color: #ddb9a3;
-    color: white;
-    padding: 2rem;
-    margin: 3rem;
+  background-color: #ddb9a3;
+  color: white;
+  padding: 2rem;
+  margin: 3rem;
 }
 p {
-    font-size: 1.4rem;
-    text-align: center;
+  font-size: 1.4rem;
+  text-align: center;
 }
 .icon {
-    width: 10rem;
-    display: block;
-    margin: 1rem auto;
+  width: 10rem;
+  display: block;
+  margin: 1rem auto;
 }
 .iconText {
-margin: 0 35% 5% 35%;
-font-size: 1.3rem;
+  margin: 0 35% 5% 35%;
+  font-size: 1.3rem;
 }
 .iconText strong {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .footerImg {
-    background-image: url("assets/footer_img.jpg");
-    background-position: center top 15%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 20rem;
-    margin: 0 auto;
+  background-image: url("assets/footer_img.jpg");
+  background-position: center top 15%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20rem;
+  margin: 0 auto;
 }
 .footerNav {
-    background-color: #f9e7dc;
-    height: 12rem;
-    width: 100%;
-    margin: 0 auto;
-    display: inline-block;
+  background-color: #f9e7dc;
+  display: inline-block;
+  height: 8rem;
+  width: 100%;
+  margin: 0 auto;
+  vertical-align: center;
+  padding-top: 3rem;
 }
