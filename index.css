@@ -4,39 +4,46 @@ Roboto Mono - used as default text for the page. font-family: 'Roboto Mono', mon
 
 * {
   font-family: "Roboto Mono", monospace;
-  font-size: ;
+  font-size: 10px;
 }
 body {
   margin: 3rem;
 }
 .navButtons {
-  text-align: center;
+  margin: 3rem auto;
 }
 .navButtons li {
   list-style: none;
   display: inline;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-align: center;
   margin: 0 2rem 4rem 2rem;
 }
+
 .navButtons li a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 .navButtons .plan {
-  background-color: #ff764e;
-  padding: 1.8rem;
-  border-radius: 25%;
+    background-color: #ff764e;
+    padding: 1.8rem;
+    border-radius: 11px;
+    transform: skewx(-45deg) 0.5s;
+}
+  .navButtons .plan:hover {
+     background-color: white;
+     border: #ff764e solid 2px;
+     color: #ff764e;
 }
 
 .navButtons .learn {
   background-color: #5ed3eb;
-  border-radius: 25%;
+  border-radius: 11px;
   padding: 1.8rem;
 }
 .navButtons .involved {
   background-color: #ffcd69;
-  border-radius: 25%;
+  border-radius: 11px;
   padding: 1.8rem;
 }
 
@@ -46,24 +53,58 @@ body {
 }
 .headerTable .imgContainer {
     width: 30%;
-}
+    }
 .headerTable .headerContainer {
     width: 70%;
+    text-align: center;
+        
 }
 
 .headerImg {
   border-radius: 50%;
-  height: 10rem;
+  height: 25rem;
+  margin: 1.2rem;
 }
 
 header h1 {
   font-family: "Chelsea Market", cursive;
-  font-size: 3rem;
+  font-size: 5rem;
   display: inline;
-  text-align: center;
+text-align: center;
 }
 
 header h3 {
+    font-size: 1.6rem;
   display: inline;
   text-align: center;
+  
+}
+.firstSection {
+    background-color: #ddb9a3;
+    color: white;
+    padding: 2rem;
+    margin: 3rem;
+}
+p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+.icon {
+    width: 10rem;
+    display: block;
+    margin: 1rem auto;
+}
+.iconText {
+margin: 0 35% 5% 35%;
+font-size: 1.3rem;
+}
+.iconText strong {
+    font-size: 1.3rem;
+}
+
+.footerImg {
+    background-image: url("assets/footer_img.jpg");
+    background-size: contain;
+    background-position: center;
+    height: 18rem;
 }
